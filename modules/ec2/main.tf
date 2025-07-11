@@ -19,13 +19,13 @@ resource "aws_security_group" "ec2_sg" {
 }
 
 resource "aws_instance" "this" {
-  count               = var.instance_count
-  ami                 = var.ami_id
-  instance_type       = var.instance_type
-  subnet_id           = var.subnet_id
+  count                  = var.instance_count
+  ami                    = var.ami_id
+  instance_type          = var.instance_type
+  subnet_id              = var.subnet_id
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
-  key_name            = var.key_name
-  iam_instance_profile = var.iam_instance_profile
+  key_name               = var.key_name
+  iam_instance_profile   = var.iam_instance_profile
   tags = {
     Name = "iac-demo-ec2-${count.index + 1}"
   }

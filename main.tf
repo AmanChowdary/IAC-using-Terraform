@@ -1,14 +1,14 @@
 module "vpc" {
-  source = "./modules/vpc"
-  vpc_name = var.vpc_name
-  cidr_block = var.vpc_cidr
-  public_subnets = var.public_subnets
+  source          = "./modules/vpc"
+  vpc_name        = var.vpc_name
+  cidr_block      = var.vpc_cidr
+  public_subnets  = var.public_subnets
   private_subnets = var.private_subnets
-  azs = var.azs
+  azs             = var.azs
 }
 
 module "iam" {
-  source = "./modules/iam"
+  source        = "./modules/iam"
   iam_user_name = var.iam_user_name
 }
 

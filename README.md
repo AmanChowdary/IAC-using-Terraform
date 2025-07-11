@@ -1,17 +1,5 @@
 # Infrastructure as Code (IaC) with Terraform on AWS
 
-[![Terraform Version](https://img.shields.io/badge/Terraform-1.5.7-623CE4?logo=terraform)](https://www.terraform.io/)
-[![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)](https://aws.amazon.com/)
-[![Terraform CI](https://github.com/AmanChowdary/IAC-using-Terraform/actions/workflows/terraform.yml/badge.svg)](https://github.com/AmanChowdary/IAC-using-Terraform/actions/workflows/terraform.yml)
-
-## Demo
-
-Below is a high-level AWS architecture diagram representing the resources and their relationships provisioned by this project:
-
-> ![AWS Architecture Diagram](https://raw.githubusercontent.com/AmanChowdary/IAC-using-Terraform/main/diagram.png)
-
-(If you have not uploaded a diagram image yet, you can export the Mermaid diagram as an image and upload it as `diagram.png` in your repo root.)
-
 ## Overview
 This project demonstrates best practices in Infrastructure as Code (IaC) using [Terraform](https://www.terraform.io/) to provision and manage AWS cloud infrastructure. It showcases automated provisioning, configuration management, version control, and security integration for scalable and reliable cloud environments.
 
@@ -97,7 +85,7 @@ IAC-using-Terraform/
 ## Setup & Usage
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/IAC-using-Terraform.git
+   git clone https://github.com/AmanChowdary/IAC-using-Terraform.git
    cd IAC-using-Terraform
    ```
 2. **Initialize Terraform:**
@@ -133,6 +121,3 @@ Contributions are welcome! Please open issues or pull requests for improvements 
 
 ## Contact
 For questions, feedback, or collaboration, connect with me on [LinkedIn](https://www.linkedin.com/in/amanchowdary/) or open an issue in this repository.
-
-## Disclaimer
-This project is for educational and demonstration purposes. Review and adapt configurations for production use. 
