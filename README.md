@@ -120,4 +120,4 @@ IAC-using-Terraform/
 Contributions are welcome! Please open issues or pull requests for improvements or suggestions. All code is automatically checked for formatting and validated using GitHub Actions.
 
 ## Contact
-For questions, feedback, or collaboration, connect with me on [LinkedIn](https://www.linkedin.com/in/amanchowdary/) or open an issue in this repository.
+For questions, feedback, or collaboration, connect with me on [LinkedIn](https://www.linkedin.com/in/aman-chowdary-kakumanu-373855193/) or open an issue in this repository.
